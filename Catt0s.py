@@ -9,7 +9,7 @@ class Catt0s(commands.Cog):
         # Your code will go here
         await ctx.send("I can do stuff!")
     @commands.command()
-    async def e621(self, ctx):
-        """This does stuff!"""
+    async def weedfox(self, ctx):
+        """sends weedfox"""
         # Your code will go here
-        await ctx.send("I can do stuff!")
+        await ctx.send("<:WeedFox:785258579472941086>")
