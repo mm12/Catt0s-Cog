@@ -1,5 +1,5 @@
-from .Catt0s import Catt0s
+from .catt0s import catt0s
 
 
 def setup(bot):
-    bot.add_cog(Catt0s())
+    bot.add_cog(catt0s())
