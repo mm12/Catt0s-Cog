@@ -1,10 +1,10 @@
 from redbot.core import commands
 
-class Catt0s(commands.Cog):
+class catt0s(commands.Cog):
     """Catt0s Cog"""
 
     @commands.command()
-    async def Catt0s(self, ctx):
+    async def catt0s(self, ctx):
         """This does stuff!"""
         # Your code will go here
         await ctx.send("I can do stuff!")
