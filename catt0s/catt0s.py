@@ -45,3 +45,9 @@ async def fuck(ctx: commands.Context, *users: discord.Member):
         await ctx.send("Mention someone to sex. Do [p]help fuck for more info.")
 return fuck
 
+    @commands.command()
+    async def reactemote(self, ctx, id, emote):
+      """reacts to a given message with a given emote"""
+      message = await ctx.fetch_message(id)
+      await message.add_reaction(emote)
+    return reactemote
